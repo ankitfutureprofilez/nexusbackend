@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true, limit: "2000mb" }));
 const PORT = process.env.REACT_APP_SERVER_DOMAIN || 5100;
 
 // Email logic
-const nodemailer = require("nodemailer");
+
 const transporter = nodemailer.createTransport({
   host: process.env.MAIL_HOST, // Gmail SMTP server
   port: process.env.MAIL_PORT, // Port for SSL
