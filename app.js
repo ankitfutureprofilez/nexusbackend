@@ -20,7 +20,7 @@ app.use(express.json({ limit: '2000mb' }));
 app.use(express.urlencoded({ extended: true, limit: "2000mb" }));
 
 
-const PORT = process.env.REACT_APP_SERVER_DOMAIN || 5100;
+const PORT = process.env.REACT_APP_SERVER_DOMAIN || 5000;
 
 // Email logic
 
